@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ddt.css">
+    <title>Services - Direction du Développement Touristique du Bénin</title>
+</head>
+<body>
+    <header>
+        <h1>Services de la Direction du Développement Touristique</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services">
+            <h2>Nos Services</h2>
+
+            <div class="service">
+                <h3>Service des Affaires Administratives et des Ressources (SAAR)</h3>
+                <p>Chef: Monsieur HEHOU Narcisse ; 95 53 96 79</p>
+                <ul>
+                    <li>Secrétariat</li>
+                    <li>Matériel</li>
+                </ul>
+            </div>
+
+            <div class="service">
+                <h3>Service de la Règlementation et de la Délivrance des Actes (SRDA)</h3>
+                <p>Chef: Monsieur CAPO-CHICHI Sosthène ; 97 48 28 66</p>
+                <ul>
+                    <li>Règlementation</li>
+                    <li>Délivrance des actes</li>
+                </ul>
+            </div>
+
+            <div class="service">
+                <h3>Service de La Coopération Touristique et de la Formation (SCTF)</h3>
+                <p>Chef: Madame AWADI Rose ; 97 22 99 71</p>
+                <ul>
+                    <li>Coopération touristique</li>
+                    <li>Formation</li>
+                </ul>
+            </div>
+
+            <div class="service">
+                <h3>Service de la Statistique, du Suivi et de l’Evaluation (SSSE)</h3>
+                <p>Chef: Monsieur ADJIBODIN François ; 95 35 64 51</p>
+                <ul>
+                    <li>Suivi évaluation</li>
+                    <li>Statistique</li>
+                </ul>
+            </div>
+
+            <form id="request-form">
+                <h2>Laissez une requête</h2>
+                <label for="user-email">Votre adresse email:</label>
+                <input type="email" id="user-email" required>
+                
+                <label for="user-phone">Numéro de téléphone:</label>
+                <input type="tel" id="user-phone" required>
+
+                <label for="user-message">Message:</label>
+                <textarea id="user-message" required></textarea>
+
+                <label for="user-file">Ajouter une image (facultatif):</label>
+                <input type="file" id="user-file" accept="image/*">
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Direction du Développement Touristique du Bénin</p>
+    </footer>
+
+    <script src="ddt.js"></script>
+</body>
+</html>
